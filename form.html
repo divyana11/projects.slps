@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+</head>
+<body>
+
+<center>
+    <h1>Application Forms </h1>
+    <h3>Annual Competetion for Creative Minds</h3>
+    <form>
+        <fieldset>
+        <label>First Name </label><br>
+        <input type = "text" name ="first_name"><br>
+        <label> Last Name</label><br>
+        <input type="text" name="last_name"><br>
+        <label>E Mail </label><br>
+        <input type = "email" name="email"><br>
+        <label>Password </label><br>
+        <input type = "password" name="password">
+        <br><br>
+        <label>Birth Date</label><br>
+        <input type = "Date" name="birthdate">
+        <br><br>
+        <label> Age </label><br>
+        <input type = "number" name="age" min="10" max="30">
+            
+       
+        <br><br>
+        <label> Gender </label><br>
+        <input type = "radio" name="gender" value="male" > Male </input>
+        <input type = "radio" name="gender" value="female" > female</input>
+        <br><br>
+        <label> Choose your Grade </label>
+        <br>
+        <select name="grade">
+    
+        <option value="1"> Grade I</option>
+        <option value="2"> Grade II </option>
+        <option value="3"> Grade III </option>
+        <option value="4"> Grade IV </option>
+        <option value="5"> Grade V </option>
+        <option value="6"> Grade VI </option>
+        <option value="7"> Grade VII </option>
+        <option value="8"> Grade VIII </option>
+        <option value="9"> Grade IX </option>
+        <option value="10"> Grade X </option>
+
+        </select>
+        <br><br>
+        <label>
+            Seclect the cetegory for participation.[You can select more than one]
+        </label>
+        <br>
+        <input type="checkbox" name="category" value="animation ">
+        <label>animation</label>
+        <br><br>
+        <input type="checkbox" name="category" value="3dmodelling ">
+        <label 3dmodelling> 3dmodelling</label>
+        <br><br>
+        <input type="checkbox" name="category" value=" gamedesing ">
+        <label Gamedesign>Gamedesing</label>
+        <br><br>
+        <label>Address</label><br>
+        <textarea name="address" row="3" cols="50" ></textarea>
+        <br><br>
+        <label> Upload Image </label><br>
+        <input type = "file" name="myimage"
+        <br><br>
+        <label> Rate Us [from 1 to 10] </label><br>
+        <input type = "range" name="rate" min="1" max="10"
+        <br><br>
+        <input type="sumbit" value="Register">
+        <input type="reset" value="clear">
+        <legend> Personal Information </legend>
+    </fieldset>
+    </form>
+</center>  
+</body>
+</html>
